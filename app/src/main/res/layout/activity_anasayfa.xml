@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hsn07.animasyonlar.Anasayfa">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnalpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALPHA" />
+
+        <Button
+            android:id="@+id/btnrotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ROTATE" />
+
+        <Button
+            android:id="@+id/btntranslate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TRANSLATE" />
+
+        <Button
+            android:id="@+id/btnscale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCALE" />
+
+        <Button
+            android:id="@+id/btnkarisik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KARIŞIK" />
+
+        <Button
+            android:id="@+id/btnsayfanimasyonu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAYFA ANİMASYONU" />
+
+        <Button
+            android:id="@+id/btnkare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KARE ANİMASYONU" />
+
+        <Button
+            android:id="@+id/btnmda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Material Design Animasyonu" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
